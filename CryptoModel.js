@@ -8,4 +8,4 @@ const Mschema = new mongoose.Schema({
 
 })
 
-export default Mschema;
+module.exports=mongoose.model('Mschema',Mschema);
